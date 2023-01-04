@@ -1,8 +1,8 @@
-2023-01-04 00:53:12.960 | INFO | Start app sudokusolver version: 0.0.1
-2023-01-04 00:53:12.960 | INFO | App arguments: 
-2023-01-04 00:53:12.960 | INFO | Load sudoku: sudoku_01
-2023-01-04 00:53:12.960 | INFO | load t: 0.00000000 s
-2023-01-04 00:53:12.960 | INFO | Sudoku loaded: sudoku_01
+No datetime | INFO | Start app sudokusolver version: 0.0.1
+No datetime | INFO | App arguments: -p
+No datetime | INFO | Load sudoku: sudoku_01
+No datetime | INFO | load t: 0.00000000 s
+No datetime | INFO | Sudoku loaded: sudoku_01
 8   3  |        | 6 2 5
     1  |   2 6  |   3  
   2    | 4   5  | 8 7  
@@ -14,9 +14,9 @@
 7 6    |   4 1  |      
        |     3  | 9   6
 3 9    |        | 2   7
-2023-01-04 00:53:12.960 | INFO | Solve sudoku: sudoku_01
-2023-01-04 00:53:12.961 | INFO | solve_backtracking t: 0.00099134 s
-2023-01-04 00:53:12.961 | INFO | Solution found for sudoku: sudoku_01
+No datetime | INFO | Solve sudoku: sudoku_01
+No datetime | INFO | solve_backtracking t: 0.00099134 s
+No datetime | INFO | Solution found for sudoku: sudoku_01
 8 4 3  | 1 9 7  | 6 2 5
 5 7 1  | 8 2 6  | 4 3 9
 9 2 6  | 4 3 5  | 8 7 1
@@ -28,5 +28,5 @@
 7 6 2  | 9 4 1  | 5 8 3
 1 8 5  | 2 7 3  | 9 4 6
 3 9 4  | 5 6 8  | 2 1 7
-2023-01-04 00:53:12.961 | INFO | Total time processing sudoku sudoku_01: 0.00099134 s
-2023-01-04 00:53:12.961 | INFO | End app sudokusolver
+No datetime | INFO | Total time processing sudoku sudoku_01: 0.00099134 s
+No datetime | INFO | End app sudokusolver
