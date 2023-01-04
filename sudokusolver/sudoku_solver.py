@@ -7,10 +7,7 @@ import time
 
 from sudokusolver.tools.logger.logger import log
 from sudokusolver.controller.controller import SudokuController
-from sudokusolver.config.config import (
-    FILE_INPUT_PATH,
-    FILE_TXT_EXT,
-    )
+from sudokusolver.config.config import FILE_INPUT_PATH, FILE_TXT_EXT
 
 
 def _sudoku(controller, sudoku_name, print_input_sudoku, print_solution):
