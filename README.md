@@ -41,7 +41,12 @@
 
 **Examples of usage**
 
-    $ python -m sudokusolver
+    > Solves sudoku with name sudoku_01 from the input directory:
+       $ python -m sudokusolver
+    > Solves sudoku with name sudoku_02 from the input directory:
+       $ python -m sudokusolver --name sudoku_02
+    > Solves all sudokus from the input directory:
+       $ python -m sudokusolver --processinputdir
 
 
 **To make The Sudoku Solver work**
