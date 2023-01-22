@@ -44,5 +44,9 @@ class SudokuController:
             print(f"No solutions found for sudoku: {sudoku.name}")
             return
 
-        print(f"Solution found for sudoku: {sudoku.name}:")
+        if sudoku.is_solved and sudoku.is_solved_successfully:
+            print(f"Solution found for sudoku: {sudoku.name}")
+        else:
+            print(f"Sudoku board: {sudoku.name}")
+
         print(sudoku)
