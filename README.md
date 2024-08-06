@@ -7,6 +7,7 @@
 	author_nickname: japinol
 	author_gitHub: japinol7
 	author_twitter: @japinol
+	Python requires: 3.12 or greater.
 
 
 ## Usage
@@ -17,11 +18,13 @@
 	  -h, --help            show this help message and exit
 	  -n NAME, --name NAME  the sudoku's name.
 	  -l, --multiplelogfiles
-	  -m, --stdoutlog       Print logs to the console along with writing them to the log file
+	  -m, --stdoutlog       Print logs to the console along with 
+                            writing them to the log file
 	  -p, --nologdatetime   Logs will not print a datetime
 	  -pd, --processinputdir
                             solve all sudokus from the input directory.
-	  -t, --debugtraces     Show debug back traces information when something goes wrong
+	  -t, --debugtraces     Show debug back traces information when 
+                            something goes wrong
 
 
 **Default optional arguments**
