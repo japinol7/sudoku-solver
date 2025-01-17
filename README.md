@@ -2,12 +2,12 @@
 
 	Solves sudokus of 9x9 cells with 9 box cells of 3 cells each one.
 
-	version: 0.0.1
+	version: 0.0.2
 	author: Joan A. Pinol
 	author_nickname: japinol
 	author_gitHub: japinol7
 	author_twitter: @japinol
-	Python requires: 3.12 or greater.
+	Python requires: 3.13 or greater.
 
 
 ## Usage
