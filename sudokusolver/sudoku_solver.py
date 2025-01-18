@@ -11,10 +11,10 @@ from sudokusolver.config.config import FILE_INPUT_PATH, FILE_TXT_EXT
 
 
 def _sudoku(controller, sudoku_name, print_input_sudoku, print_solution):
-    time_start = time.time()
+    time_start = time.perf_counter()
     sudoku = controller.load_sudoku(sudoku_name, print_input_sudoku)
     controller.solve_sudoku(sudoku, print_solution)
-    log.info(f'Total time processing sudoku {sudoku_name}: {time.time() - time_start:.{8}f} s')
+    log.info(f'Total time processing sudoku {sudoku_name}: {time.perf_counter() - time_start:.{8}f} s')
 
 
 def sudokus(sudoku_name, process_folder, print_input_sudoku, print_solution):

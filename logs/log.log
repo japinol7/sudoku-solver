@@ -4,7 +4,7 @@ No datetime | INFO | Processing all sudokus from input directory
 No datetime | INFO | ---------------
 No datetime | INFO | Processing sudoku   1 of   3
 No datetime | INFO | Load sudoku: sudoku_01
-No datetime | INFO | load t: 0.00000000 s
+No datetime | INFO | load t: 0.00012530 s
 No datetime | INFO | Sudoku loaded: sudoku_01
 8   3  |        | 6 2 5
     1  |   2 6  |   3  
@@ -18,7 +18,7 @@ No datetime | INFO | Sudoku loaded: sudoku_01
        |     3  | 9   6
 3 9    |        | 2   7
 No datetime | INFO | Solve sudoku: sudoku_01
-No datetime | INFO | solve_backtracking t: 0.00099945 s
+No datetime | INFO | solve_backtracking t: 0.00086470 s
 No datetime | INFO | Solution found for sudoku: sudoku_01
 8 4 3  | 1 9 7  | 6 2 5
 5 7 1  | 8 2 6  | 4 3 9
@@ -31,11 +31,11 @@ No datetime | INFO | Solution found for sudoku: sudoku_01
 7 6 2  | 9 4 1  | 5 8 3
 1 8 5  | 2 7 3  | 9 4 6
 3 9 4  | 5 6 8  | 2 1 7
-No datetime | INFO | Total time processing sudoku sudoku_01: 0.00200009 s
+No datetime | INFO | Total time processing sudoku sudoku_01: 0.00169490 s
 No datetime | INFO | ---------------
 No datetime | INFO | Processing sudoku   2 of   3
 No datetime | INFO | Load sudoku: sudoku_02
-No datetime | INFO | load t: 0.00000000 s
+No datetime | INFO | load t: 0.00029740 s
 No datetime | INFO | Sudoku loaded: sudoku_02
        | 8 3 2  |   6 7
        | 6      | 2    
@@ -49,7 +49,7 @@ No datetime | INFO | Sudoku loaded: sudoku_02
        |     5  |      
 4   2  |        | 5    
 No datetime | INFO | Solve sudoku: sudoku_02
-No datetime | INFO | solve_backtracking t: 0.01000762 s
+No datetime | INFO | solve_backtracking t: 0.00875380 s
 No datetime | INFO | Solution found for sudoku: sudoku_02
 1 9 5  | 8 3 2  | 4 6 7
 7 4 3  | 6 5 1  | 2 9 8
@@ -62,11 +62,11 @@ No datetime | INFO | Solution found for sudoku: sudoku_02
 6 5 7  | 2 8 3  | 9 4 1
 9 3 1  | 4 7 5  | 8 2 6
 4 8 2  | 1 9 6  | 5 7 3
-No datetime | INFO | Total time processing sudoku sudoku_02: 0.01099992 s
+No datetime | INFO | Total time processing sudoku sudoku_02: 0.00981990 s
 No datetime | INFO | ---------------
 No datetime | INFO | Processing sudoku   3 of   3
 No datetime | INFO | Load sudoku: sudoku_03
-No datetime | INFO | load t: 0.00000000 s
+No datetime | INFO | load t: 0.00036600 s
 No datetime | INFO | Sudoku loaded: sudoku_03
   3    |        |   8  
     2  |     6  | 5 1  
@@ -80,7 +80,7 @@ No datetime | INFO | Sudoku loaded: sudoku_03
        |        |   7  
        | 6      | 2    
 No datetime | INFO | Solve sudoku: sudoku_03
-No datetime | INFO | solve_backtracking t: 0.06800747 s
+No datetime | INFO | solve_backtracking t: 0.06388150 s
 No datetime | INFO | Solution found for sudoku: sudoku_03
 5 3 6  | 4 9 1  | 7 8 2
 4 7 2  | 8 3 6  | 5 1 9
@@ -93,6 +93,6 @@ No datetime | INFO | Solution found for sudoku: sudoku_03
 8 5 4  | 3 7 2  | 9 6 1
 6 2 3  | 1 5 9  | 8 7 4
 9 1 7  | 6 8 4  | 2 5 3
-No datetime | INFO | Total time processing sudoku sudoku_03: 0.06800747 s
+No datetime | INFO | Total time processing sudoku sudoku_03: 0.06538220 s
 No datetime | INFO | ---------------
 No datetime | INFO | End app sudokusolver
