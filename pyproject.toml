@@ -1,0 +1,10 @@
+[project]
+name = "sudoku-solver"
+version = "0.0.2"
+description = "sudoku-solver"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pytest>=8.3.5",
+    "pytest-mock>=3.14.0",
+]
